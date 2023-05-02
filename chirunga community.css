@@ -1,3 +1,33 @@
-h1{
-    color:tomato;
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: system-ui;
+}
+.logo span{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(186, 165, 6, 0.875);
+}
+.sidenav{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: im;
+    top: 0;
+    left: 0;
+    background-color: rgba(18, 93, 133, 0.85);
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+.sidenav a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(32, 25, 25, 0.831);
+    display: block;
+    transition: 0.3s;
 }
