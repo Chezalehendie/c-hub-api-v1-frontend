@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 body{
-    margin: 0px;
-    padding: 0px;
     overflow: hidden;
     font-family: system-ui;
 }
@@ -8,26 +12,44 @@ body{
     margin: 0px;
     font-weight: bold;
     font-size: 20px;
-    color: rgba(186, 165, 6, 0.875);
+    color: rgb(242, 126, 10);
+}
+.logo{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;  
 }
 .sidenav{
     height: 100%;
-    width: 300px;
+    width: 250px;
     position: fixed;
-    z-index: im;
     top: 0;
     left: 0;
-    background-color: rgba(18, 93, 133, 0.85);
+    background-color: rgba(4, 75, 75, 0.974);
     overflow: hidden;
-    transition: 0.5s;
-    padding-top: 30px;
 }
-.sidenav a{
-    padding: 15px;
+.sidenav header{
+font-size: 22px;
+text-align: center;
+line-height: 80px;
+background: rgba(2, 31, 34, 0.991);
+user-select: none;
+}
+.sidenav ul a{
+    padding: 17px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: rgba(32, 25, 25, 0.831);
+    color: rgba(1, 9, 14, 0.991);
     display: block;
-    transition: 0.3s;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(158, 141, 90, 0.428);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.icon-a span{
+    margin-right: 16px;
 }
